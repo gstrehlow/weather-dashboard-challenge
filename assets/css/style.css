@@ -34,5 +34,41 @@
     margin-left: 10px;
 }
 
+/* UV coloring scheme for UV display */
+.uv-favorable{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
 
+.uv-moderate{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+}
+
+.uv-severe{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+.weather-current h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.callout {
+    width: 1400px;
+    right: 180px;
+    border-radius: 5px;
+    border-color: black;
+    height: 300px;
+}
+
+#five-day-forecast h1{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 300px;
+}
 

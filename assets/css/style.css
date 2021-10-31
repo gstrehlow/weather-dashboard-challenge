@@ -34,6 +34,10 @@
     margin-left: 10px;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 /* UV coloring scheme for UV display */
 .uv-favorable{
     background-color: green;
@@ -44,6 +48,7 @@
 .uv-moderate{
     background-color: orange;
     border-radius: 5px;
+    
     color: white;
 }
 

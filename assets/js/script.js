@@ -10,7 +10,7 @@ let cityHistory = [];
 
 function weatherApi(cityKey, isAdd) {
     cityKey = toTitleCase(cityKey);
-    let coordinateUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityKey + "&limit=1&appid=" + apiKey;
+    let coordinateUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityKey + "&limit=1&appid=" + apiKey;
     let lat = "";
     let long = "";
     fetch(coordinateUrl).then(function(response) {
@@ -40,7 +40,7 @@ function weatherData(data, cityKey) {
     forecastList[0] = new weather;
     let index = data.current;
     let icon = index.weather[0].icon;
-    forecastList[0].icon = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
+    forecastList[0].icon = "https://openweathermap.org/img/wn/" + icon + "@2x.png";
     forecastList[0].temp = index.temp;
     forecastList[0].wind = index.wind_speed;
     forecastList[0].humidity = index.humidity;
@@ -54,7 +54,7 @@ function weatherData(data, cityKey) {
         index = data.daily[i];
         forecastList[i] = new weather;
         let icon = index.weather[0].icon;
-        forecastList[i].icon = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
+        forecastList[i].icon = "https://openweathermap.org/img/wn/" + icon + "@2x.png";
         forecastList[i].temp = index.temp.day;
         forecastList[i].wind = index.wind_speed;
         forecastList[i].humidity = index.humidity;

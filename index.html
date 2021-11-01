@@ -11,17 +11,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Weather Dashboard</title>
 </head>
-
 <body>
     <header class="header">
         <h1>Weather Dashboard</h1>
     </header>
-
     <!--Main container-->
-    <main id="content" class="main-container">
-
+    <main>
         <div class="grid-x">
-
+            <section>
             <!--left side of the webpage containing the search box and list of generated cities-->
             <div id="left-content" class="cell medium-3">
                 <form>
@@ -34,9 +31,10 @@
                 <!--list of city search history-->
                 <ul id="city-results" class="list-group"></ul>
             </div>
-
+            </section>
             <!--right side of the webpage containing the current weather and 5 day forecast-->
-            <div id="right-content" class="callout medium">
+            <section>
+            <div>
                 <!--Current weather on top-->
                 <div id="current-weather" class="weather-current">
                     <h1></h1>
@@ -46,9 +44,9 @@
                     <h2 class="inline"><h3 class="inline"></h3></h2>
                 </div>
             </div>
-            <div id="five-day-forecast" class="grid-x">
-                <h1>5 Day Forecast:</h1>
-                <ul id="forecast">
+        </div>
+        <section>
+                <ul id="forecast" class="grid-x">
                     <div id="forecast1">
                         
                     </div>
@@ -64,8 +62,8 @@
                     <div id="forecast5">
                         
                     </div>
-                </ul>                  
-            </div>
+                </ul>
+                </section>                  
         </main>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

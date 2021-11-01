@@ -76,7 +76,7 @@ class weather {
     appendCurrentWeather() {
         let currentWeather = $('#current-weather');
         let color = this.getUvColor();
-        currentWeather.children('h1').empty().append(this.date).append(' <img src=' + this.icon + ' />');
+        currentWeather.children('h1').empty().append(this.cityName + " " + this.date).append(' <img src=' + this.icon + ' />');
         currentWeather.children('h2').empty();
         currentWeather.children('h2')[0].append('Temp: ' + this.temp + '°F');
         currentWeather.children('h2')[1].append('Wind: ' + this.wind + ' MPH');

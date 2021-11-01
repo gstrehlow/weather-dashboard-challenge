@@ -1,5 +1,9 @@
 .header {
-    background-color: teal;
+    background-color: #9fa8a3;
+}
+
+.inline {
+    display: inline;
 }
 
 .header h1 {
@@ -13,67 +17,94 @@
 .city-search {
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 38px;
 }
 
 .search-input {
-    width: 50%;
+    width: 80%;
     height: 40px;
-    margin-left: 10px;
+    margin-left: 24px;
+    border-radius: 4px;
+}
+
+#city-results button {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    background-color: #e3e0cf;
+    color: white;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 15px;
     border-radius: 4px;
 }
 
 .btn {
-    background-color: teal;
+    background-color: #9fa8a3;
     color: white;
     font-family: 'Rubik', sans-serif;
     border-radius: 4px;
     padding: 5px;
-    width: 50%;
+    width: 80%;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 24px;
 }
 
 .btn:hover {
     cursor: pointer;
 }
+button:hover {
+    cursor: pointer;
+}
 
 /* UV coloring scheme for UV display */
 .uv-favorable{
-    background-color: green;
-    border-radius: 5px;
-    color: white;
+    color: green;
 }
 
 .uv-moderate{
-    background-color: orange;
-    border-radius: 5px;
-    
-    color: white;
+    color: orange;
 }
 
 .uv-severe{
-    background-color: red;
-    border-radius: 5px;
-    color: white;
+    color: red;
 }
-
-
 
 .weather-current h1, h2, h3 {
     font-family: 'Rubik', sans-serif;
 }
 
-.callout {
-    width: 1400px;
-    right: 180px;
-    border-radius: 5px;
-    border-color: black;
-    height: 300px;
+#current-weather{
+    color: white;
+    background-color: #e3e0cf;
+    border-radius: 8px;
+    padding: 4px 0 30px 40px;
+    margin: 8px 0 16px 0;
+    width: 200%;
 }
-
-#five-day-forecast h1{
+#current-weather h1, h2, h3 {
     font-family: 'Rubik', sans-serif;
-    margin-left: 300px;
+}
+#current-weather h3{
+    font-size: 36px;
+}
+#forecast{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background:#9fa8a3;
+    padding: 15px;
+    border-radius: 8px;
+    margin-left: 320px;
+    width: 75%;
+}
+#forecast h2{
+    padding: 0 12px 0 12px;
+    font-size: 32px;
+}
+#forecast h3{
+    font-size: 26px;
 }
 

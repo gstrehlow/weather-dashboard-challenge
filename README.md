@@ -1,5 +1,8 @@
 # Weather Dashboard
 
+![screencapture-gstrehlow-github-io-weather-dashboard-challenge-2021-10-31-22_16_27](https://user-images.githubusercontent.com/90304692/139617050-767727cc-db0c-4d46-b60e-d4fad151bfd9.png)
+
+
 ## My Task
 Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 
